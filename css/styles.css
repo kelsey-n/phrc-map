@@ -1,0 +1,10 @@
+html, body, #grid-container, #mapcontainer {
+  height: 100%;
+  margin: 0;
+}
+
+#mapcontainer {
+  flex-grow: 1;
+  grid-row-start: 2;
+  transition: margin-left .5s;
+}
