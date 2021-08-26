@@ -3,9 +3,14 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoia25hbmFuIiwiYSI6ImNrbDlsMXNmNjI3MnEyb25yYjNre
 // 1. Initialize mapboxgl map and insert into mapcontainer div:
 var map = new mapboxgl.Map({
   container: 'mapcontainer', // container ID
-  style: 'mapbox://styles/mapbox/dark-v10', // style URL mapbox://styles/knanan/ckle1rswq26lu17paw71lych7
+  style: 'mapbox://styles/mapbox/light-v10', // style URL mapbox://styles/knanan/ckle1rswq26lu17paw71lych7
   center: [-73.984, 40.7128], // starting position [lng, lat]
-  zoom: 11.5 // starting zoom
+  zoom: 11.5, // starting zoom
+  bounds: [
+    //[-160.58069, -36.99987],
+    [-159.37521, 1.26585],
+    [105.45049, 57.64587]
+  ]
 });
 
 // add navigation control:
@@ -15,11 +20,10 @@ map.addControl(new mapboxgl.NavigationControl({
   showZoom: true
 }));
 
-var colors = ['#b2182b','#ef8a62','#fddbc7','#d1e5f0','#67a9cf','#2166ac'] // diverging red -> blue color scheme
+//var colors = ['#b2182b','#ef8a62','#fddbc7','#d1e5f0','#67a9cf','#2166ac'] // diverging red -> blue color scheme
+var colors = ['#de425b','#e8724b','#e59e4d','#99b561','#59a065','#488f31'] // diverging red -> green 
 
 map.on('style.load', function() {
-
-  //var colors = ['#b2182b','#ef8a62','#fddbc7','#d1e5f0','#67a9cf','#2166ac'] // diverging red -> blue color scheme
 
   map.addSource('phrc-map-data', {
     type: 'geojson',
@@ -54,7 +58,14 @@ map.on('style.load', function() {
         'F+', colors[0],
         'black' // no grade
       ],
-      'circle-opacity': 0.75
+      'circle-opacity': 0.75,
+      'circle-radius': {
+        'base': 6,
+        'stops': [
+          [3, 6],
+          [10, 9]
+        ]
+      },
     },
   });
 
@@ -120,8 +131,15 @@ map.on('style.load', function() {
         'black' // no grade
       ],
       'circle-stroke-width': 1.5, //stroke color and stroke width give the effect of the circle becoming slightly larger upon hovering
+      'circle-opacity': 1,
+      'circle-radius': {
+        'base': 6,
+        'stops': [
+          [3, 6],
+          [10, 9]
+        ]
+      }
     },
-    'circle-opacity': 1
   });
 
   // Create a popup, but don't add it to the map yet. This will be the hover popup
@@ -198,7 +216,7 @@ map.on('style.load', function() {
       <div style = "font-family:sans-serif; font-size:12px;">Support for Student-Led Initiatives: ${clickedFeature.properties.Support_for_Student_Led_Initiatives}</div>
       <div style = "font-family:sans-serif; font-size:12px;">Sustainability: ${clickedFeature.properties.Sustainability}</div>
       <a target="_blank" rel="noopener noreferrer"
-        href="${clickedFeature.properties.Link}">Download PHRC
+        href="${clickedFeature.properties.Link}">View full PHRC
       </a>
       `;
 
