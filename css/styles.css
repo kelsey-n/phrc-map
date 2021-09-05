@@ -1,7 +1,7 @@
 html, body, #mapcontainer {
   height: 100%;
   margin: 0;
-  font-family: cursive;
+  font-family: 'Glory', sans-serif;
 }
 
 #mapcontainer {
@@ -10,7 +10,8 @@ html, body, #mapcontainer {
 }
 
 .mapboxgl-popup-content {
-  font-family: cursive;
+  font-family: 'Glory', sans-serif;
+  font-size: 15px;
 }
 
 /* .A-popup .mapboxgl-popup-content {
@@ -61,7 +62,7 @@ html, body, #mapcontainer {
   width: 20px;
   margin-bottom: 0px;
   text-align: center;
-  font-size: 90%;
+  font-size: 100%;
   list-style: none;
   }
 .my-legend ul.legend-labels li span {
@@ -71,7 +72,7 @@ html, body, #mapcontainer {
   width: 20px;
   }
 .my-legend {
-  font-size: 90%;
+  font-size: 100%;
   color: black;
   clear: both;
   left: 320px;
