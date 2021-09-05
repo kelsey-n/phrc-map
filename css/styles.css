@@ -1,12 +1,47 @@
 html, body, #mapcontainer {
   height: 100%;
   margin: 0;
+  font-family: cursive;
 }
 
 #mapcontainer {
   flex-grow: 1;
   position: relative;
 }
+
+.mapboxgl-popup-content {
+  font-family: cursive;
+}
+
+/* .A-popup .mapboxgl-popup-content {
+  background-color: #2234A8dd;
+  color: #ffffffee;
+}
+
+.A-popup .mapboxgl-popup-content a {
+  color: #ffffffee;
+}
+
+.B-popup .mapboxgl-popup-content {
+  background-color: #99b561dd;
+}
+
+.C-popup .mapboxgl-popup-content {
+  background-color: #e59e4ddd;
+}
+
+.D-popup .mapboxgl-popup-content {
+  background-color: #e8724bdd;
+}
+
+.F-popup .mapboxgl-popup-content {
+  background-color: #DA0037dd;
+  color: #ffffffee;
+}
+
+.F-popup .mapboxgl-popup-content a {
+  color: #ffffffee;
+} */
 
 .my-legend .legend-title {
   /* text-align: left; */
@@ -26,7 +61,7 @@ html, body, #mapcontainer {
   width: 20px;
   margin-bottom: 0px;
   text-align: center;
-  font-size: 80%;
+  font-size: 90%;
   list-style: none;
   }
 .my-legend ul.legend-labels li span {
@@ -36,7 +71,7 @@ html, body, #mapcontainer {
   width: 20px;
   }
 .my-legend {
-  font-size: 70%;
+  font-size: 90%;
   color: black;
   clear: both;
   left: 320px;
@@ -52,7 +87,6 @@ html, body, #mapcontainer {
   left: 0;
   background: #fff;
   margin-right: 20px;
-  font-family: Arial, sans-serif;
   overflow: auto;
   border-radius: 3px;
   padding: 10px;

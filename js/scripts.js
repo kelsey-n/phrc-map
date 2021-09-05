@@ -2,14 +2,11 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoia25hbmFuIiwiYSI6ImNrbDlsMXNmNjI3MnEyb25yYjNre
 
 // 1. Initialize mapboxgl map and insert into mapcontainer div:
 var map = new mapboxgl.Map({
-  container: 'mapcontainer', // container ID
-  style: 'mapbox://styles/mapbox/light-v10', // style URL mapbox://styles/knanan/ckle1rswq26lu17paw71lych7
-  center: [-73.984, 40.7128], // starting position [lng, lat]
-  zoom: 11.5, // starting zoom
+  container: 'mapcontainer',
+  style: 'mapbox://styles/mapbox/light-v10',
   bounds: [
-    //[-160.58069, -36.99987],
-    [-159.37521, 1.26585],
-    [105.45049, 57.64587]
+    [-127.77006, 22.52332],
+    [3.26688, 59.99842]
   ]
 });
 
@@ -21,7 +18,26 @@ map.addControl(new mapboxgl.NavigationControl({
 }));
 
 //var colors = ['#b2182b','#ef8a62','#fddbc7','#d1e5f0','#67a9cf','#2166ac'] // diverging red -> blue color scheme
-var colors = ['#de425b','#e8724b','#e59e4d','#99b561','#59a065','#488f31'] // diverging red -> green 
+//var colors = ['#de425b','#e8724b','#e59e4d','#99b561','#59a065','#488f31'] // diverging red -> green ORIGINAL
+//var colors = ['#de425b','#e8724b','#e59e4d','#99b561','#488f31','#8082ae']
+//var colors = ['#DA0037','#e8724b','#e59e4d','#719FB0','#488f31'] // F --> A //LIKELY OPTION, GREEN AS A, BLUE AS B
+var colors = ['#DA0037','#e8724b','#e59e4d','#99b561','#2234A8'] // F --> A, red --> blue
+
+var background_colors = {
+  "A": '#2234A8dd',
+  "B": '#99b561dd',
+  "C": '#e59e4ddd',
+  "D": '#e8724bdd',
+  "F": '#DA0037dd'
+}
+
+var text_colors = {
+  "A": '#ffffffee',
+  "B": '',
+  "C": '',
+  "D": '',
+  "F": '#ffffffee'
+}
 
 map.on('style.load', function() {
 
@@ -38,32 +54,32 @@ map.on('style.load', function() {
       'circle-color': [ //color circle based on its overall grade
         'match',
         ['get', 'Overall_Grade_Letter'],
-        'A-', colors[5],
-        'A', colors[5],
-        'A+', colors[5],
-        'B-', colors[4],
-        'B', colors[4],
-        'B+', colors[4],
-        'C-', colors[3],
-        'C', colors[3],
-        'C+', colors[3],
-        'D-', colors[2],
-        'D', colors[2],
-        'D+', colors[2],
-        'E-', colors[1],
-        'E', colors[1],
-        'E+', colors[1],
+        'A-', colors[4],
+        'A', colors[4],
+        'A+', colors[4],
+        'B-', colors[3],
+        'B', colors[3],
+        'B+', colors[3],
+        'C-', colors[2],
+        'C', colors[2],
+        'C+', colors[2],
+        'D-', colors[1],
+        'D', colors[1],
+        'D+', colors[1],
+        // 'E-', colors[1],
+        // 'E', colors[1],
+        // 'E+', colors[1],
         'F-', colors[0],
         'F', colors[0],
         'F+', colors[0],
         'black' // no grade
       ],
-      'circle-opacity': 0.75,
+      'circle-opacity': 0.85,
       'circle-radius': {
-        'base': 6,
+        'base': 9,
         'stops': [
-          [3, 6],
-          [10, 9]
+          [3, 9],
+          [10, 13]
         ]
       },
     },
@@ -87,21 +103,21 @@ map.on('style.load', function() {
       'circle-color': [ //color circle based on its overall grade
         'match',
         ['get', 'Overall_Grade_Letter'],
-        'A-', colors[5],
-        'A', colors[5],
-        'A+', colors[5],
-        'B-', colors[4],
-        'B', colors[4],
-        'B+', colors[4],
-        'C-', colors[3],
-        'C', colors[3],
-        'C+', colors[3],
-        'D-', colors[2],
-        'D', colors[2],
-        'D+', colors[2],
-        'E-', colors[1],
-        'E', colors[1],
-        'E+', colors[1],
+        'A-', colors[4],
+        'A', colors[4],
+        'A+', colors[4],
+        'B-', colors[3],
+        'B', colors[3],
+        'B+', colors[3],
+        'C-', colors[2],
+        'C', colors[2],
+        'C+', colors[2],
+        'D-', colors[1],
+        'D', colors[1],
+        'D+', colors[1],
+        // 'E-', colors[1],
+        // 'E', colors[1],
+        // 'E+', colors[1],
         'F-', colors[0],
         'F', colors[0],
         'F+', colors[0],
@@ -110,21 +126,21 @@ map.on('style.load', function() {
       'circle-stroke-color': [ //use same data styling as for original layer
         'match',
         ['get', 'Overall_Grade_Letter'],
-        'A-', colors[5],
-        'A', colors[5],
-        'A+', colors[5],
-        'B-', colors[4],
-        'B', colors[4],
-        'B+', colors[4],
-        'C-', colors[3],
-        'C', colors[3],
-        'C+', colors[3],
-        'D-', colors[2],
-        'D', colors[2],
-        'D+', colors[2],
-        'E-', colors[1],
-        'E', colors[1],
-        'E+', colors[1],
+        'A-', colors[4],
+        'A', colors[4],
+        'A+', colors[4],
+        'B-', colors[3],
+        'B', colors[3],
+        'B+', colors[3],
+        'C-', colors[2],
+        'C', colors[2],
+        'C+', colors[2],
+        'D-', colors[1],
+        'D', colors[1],
+        'D+', colors[1],
+        // 'E-', colors[1],
+        // 'E', colors[1],
+        // 'E+', colors[1],
         'F-', colors[0],
         'F', colors[0],
         'F+', colors[0],
@@ -133,19 +149,21 @@ map.on('style.load', function() {
       'circle-stroke-width': 1.5, //stroke color and stroke width give the effect of the circle becoming slightly larger upon hovering
       'circle-opacity': 1,
       'circle-radius': {
-        'base': 6,
+        'base': 9,
         'stops': [
-          [3, 6],
-          [10, 9]
+          [3, 9],
+          [10, 13]
         ]
       }
     },
   });
 
+  //var grade_letter = '';
   // Create a popup, but don't add it to the map yet. This will be the hover popup
-  var popup = new mapboxgl.Popup({
+  window['popup'] = new mapboxgl.Popup({
     closeButton: false,
-    closeOnClick: false
+    closeOnClick: false,
+    //className: `${grade_letter}`
   });
 
   // Function to query rendered features for the station the user is hovering over, then populate popup with that station's info
@@ -163,10 +181,24 @@ map.on('style.load', function() {
       //Extract necessary variables:
       var school_name = hoveredFeature.properties.School;
       var overall_grade = hoveredFeature.properties.Overall_Grade_Letter;
+      grade_letter = overall_grade.slice(0,1)
+      //console.log(grade_letter)
 
+      // window['popup'] = new mapboxgl.Popup({
+      //   closeButton: false,
+      //   closeOnClick: false,
+      //   className: `${grade_letter}-popup`
+      // });
+
+      //Add class to color popup based on overall grade:
+      popup.addClassName(`${grade_letter}-popup`)
+
+      //get popup by class name and change background color
+      //console.log(document.getElementsByClassName('mapboxgl-popup-content'))
+      //document.getElementsByClassName(`mapboxgl-popup-content`)[0].style.backgroundColor = 'green'
 
       window['popupContent'] = `
-        <div style = "font-family:sans-serif; font-size:14px; font-weight:bold">${school_name} (${overall_grade})</div>
+        <div style = "font-size:14px; font-weight:bold; color: ${text_colors[grade_letter]}; background-color: ${background_colors[grade_letter]};">${school_name} (${overall_grade})</div>
       `;
 
       //fix the position of the popup as the position of the circle:
@@ -193,9 +225,9 @@ map.on('style.load', function() {
       }
   });
 
-  // Create a popup for the click action, but don't add it to the map yet
-  var popup_click = new mapboxgl.Popup({
-  });
+  // // Create a popup for the click action, but don't add it to the map yet
+  // var popup_click = new mapboxgl.Popup({
+  // });
 
   map.on('click', 'schools-layer', function(e) {
 
@@ -205,18 +237,30 @@ map.on('style.load', function() {
     });
 
     var clickedFeature = features[0]
+    var overall_grade = clickedFeature.properties.Overall_Grade_Letter;
+    var grade_letter = overall_grade.slice(0,1)
+
+
+    // Create a popup for the click action, but don't add it to the map yet
+    // Add a class to color the popup background based on the grade color
+    var popup_click = new mapboxgl.Popup({
+      className: `${grade_letter}-popup`
+    });
+
+    //Add class to color popup based on overall grade:
+    //popup_click.addClassName(`${grade_letter}-popup`)
 
     window['popupContent_click'] = `
-      <div style = "font-family:sans-serif; font-size:14px; font-weight:bold">${clickedFeature.properties.School}</div>
-      <div style = "font-family:sans-serif; font-size:13px; font-weight:bold">Overall Grade: ${clickedFeature.properties.Overall_Grade_Letter}</div>
+      <div style = "font-size:14px; font-weight:bold; color: ${text_colors[grade_letter]}; background-color: ${background_colors[grade_letter]};">${clickedFeature.properties.School}</div>
       <br>
-      <div style = "font-family:sans-serif; font-size:12px;">Curriculum: ${clickedFeature.properties.Curriculum}</div>
-      <div style = "font-family:sans-serif; font-size:12px;">Research: ${clickedFeature.properties.Research}</div>
-      <div style = "font-family:sans-serif; font-size:12px;">Community Engagement: ${clickedFeature.properties.Community_Engagement}</div>
-      <div style = "font-family:sans-serif; font-size:12px;">Support for Student-Led Initiatives: ${clickedFeature.properties.Support_for_Student_Led_Initiatives}</div>
-      <div style = "font-family:sans-serif; font-size:12px;">Sustainability: ${clickedFeature.properties.Sustainability}</div>
+      <div style = "font-size:13px; font-weight:bold; color: ${text_colors[grade_letter]}; background-color: ${background_colors[grade_letter]};">Overall Grade: ${clickedFeature.properties.Overall_Grade_Letter}</div>
+      <div style = "font-size:12px;"><em>Curriculum</em>: ${clickedFeature.properties.Curriculum}</div>
+      <div style = "font-size:12px;"><em>Research</em>: ${clickedFeature.properties.Research}</div>
+      <div style = "font-size:12px;"><em>Community Engagement</em>: ${clickedFeature.properties.Community_Engagement}</div>
+      <div style = "font-size:12px;"><em>Support for Student-Led Initiatives</em>: ${clickedFeature.properties.Support_for_Student_Led_Initiatives}</div>
+      <div style = "font-size:12px;"><em>Sustainability</em>: ${clickedFeature.properties.Sustainability}</div>
       <a target="_blank" rel="noopener noreferrer"
-        href="${clickedFeature.properties.Link}">View full PHRC
+        href="${clickedFeature.properties.Link}">View full school report card
       </a>
       `;
 
