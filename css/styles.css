@@ -11,7 +11,7 @@ html, body, #mapcontainer {
 
 .mapboxgl-popup-content {
   font-family: 'Asap', sans-serif;
-  /* font-size: 15px; */
+  font-size: 13px;
 }
 
 /* .A-popup .mapboxgl-popup-content {
