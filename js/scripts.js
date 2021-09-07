@@ -21,19 +21,19 @@ map.addControl(new mapboxgl.NavigationControl({
 //var colors = ['#de425b','#e8724b','#e59e4d','#99b561','#59a065','#488f31'] // diverging red -> green ORIGINAL
 //var colors = ['#de425b','#e8724b','#e59e4d','#99b561','#488f31','#8082ae']
 //var colors = ['#DA0037','#e8724b','#e59e4d','#719FB0','#488f31'] // F --> A //LIKELY OPTION, GREEN AS A, BLUE AS B
-var colors = ['#DA0037','#e8724b','#e59e4d','#99b561','#2234A8'] // F --> A, red --> blue
+var colors = ['#DA0037','#e8724b','#e59e4d','#44679F','#68BB59'] // F --> A, red --> green
 
 var background_colors = {
-  "A": '#2234A8dd',
-  "B": '#99b561dd',
+  "A": '#68BB59dd',
+  "B": '#44679Fdd',
   "C": '#e59e4ddd',
   "D": '#e8724bdd',
   "F": '#DA0037dd'
 }
 
 var text_colors = {
-  "A": '#ffffffee',
-  "B": '',
+  "A": '',
+  "B": '#ffffffee',
   "C": '',
   "D": '',
   "F": '#ffffffee'
@@ -254,11 +254,11 @@ map.on('style.load', function() {
       <div style = "font-size:14px; font-weight:bold; color: ${text_colors[grade_letter]}; background-color: ${background_colors[grade_letter]};">${clickedFeature.properties.School}</div>
       <br>
       <div style = "font-size:13px; font-weight:bold; color: ${text_colors[grade_letter]}; background-color: ${background_colors[grade_letter]};">Overall Grade: ${clickedFeature.properties.Overall_Grade_Letter}</div>
-      <div style = "font-size:12px;"><em>Curriculum</em>: ${clickedFeature.properties.Curriculum}</div>
-      <div style = "font-size:12px;"><em>Research</em>: ${clickedFeature.properties.Research}</div>
-      <div style = "font-size:12px;"><em>Community Engagement</em>: ${clickedFeature.properties.Community_Engagement}</div>
-      <div style = "font-size:12px;"><em>Support for Student-Led Initiatives</em>: ${clickedFeature.properties.Support_for_Student_Led_Initiatives}</div>
-      <div style = "font-size:12px;"><em>Sustainability</em>: ${clickedFeature.properties.Sustainability}</div>
+      <div style = "font-size:13px;"><em>Curriculum</em>: ${clickedFeature.properties.Curriculum}</div>
+      <div style = "font-size:13px;"><em>Research</em>: ${clickedFeature.properties.Research}</div>
+      <div style = "font-size:13px;"><em>Community Engagement</em>: ${clickedFeature.properties.Community_Engagement}</div>
+      <div style = "font-size:13px;"><em>Support for Student-Led Initiatives</em>: ${clickedFeature.properties.Support_for_Student_Led_Initiatives}</div>
+      <div style = "font-size:13px;"><em>Sustainability</em>: ${clickedFeature.properties.Sustainability}</div>
       <a target="_blank" rel="noopener noreferrer"
         href="${clickedFeature.properties.Link}">View full school report card
       </a>

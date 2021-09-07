@@ -1,7 +1,7 @@
 html, body, #mapcontainer {
   height: 100%;
   margin: 0;
-  font-family: 'Glory', sans-serif;
+  font-family: 'Asap', sans-serif;
 }
 
 #mapcontainer {
@@ -10,8 +10,8 @@ html, body, #mapcontainer {
 }
 
 .mapboxgl-popup-content {
-  font-family: 'Glory', sans-serif;
-  font-size: 15px;
+  font-family: 'Asap', sans-serif;
+  /* font-size: 15px; */
 }
 
 /* .A-popup .mapboxgl-popup-content {
