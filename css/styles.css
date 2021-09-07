@@ -62,7 +62,7 @@ html, body, #mapcontainer {
   width: 20px;
   margin-bottom: 0px;
   text-align: center;
-  font-size: 100%;
+  font-size: 90%;
   list-style: none;
   }
 .my-legend ul.legend-labels li span {
@@ -72,7 +72,7 @@ html, body, #mapcontainer {
   width: 20px;
   }
 .my-legend {
-  font-size: 90%;
+  font-size: 80%;
   color: black;
   clear: both;
   left: 320px;
