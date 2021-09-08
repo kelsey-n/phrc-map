@@ -11,16 +11,11 @@ var map = new mapboxgl.Map({
 });
 
 // add navigation control:
-// TO DO: disable scrollwheel zoom
 map.addControl(new mapboxgl.NavigationControl({
   showCompass: false,
   showZoom: true
 }));
 
-//var colors = ['#b2182b','#ef8a62','#fddbc7','#d1e5f0','#67a9cf','#2166ac'] // diverging red -> blue color scheme
-//var colors = ['#de425b','#e8724b','#e59e4d','#99b561','#59a065','#488f31'] // diverging red -> green ORIGINAL
-//var colors = ['#de425b','#e8724b','#e59e4d','#99b561','#488f31','#8082ae']
-//var colors = ['#DA0037','#e8724b','#e59e4d','#719FB0','#488f31'] // F --> A //LIKELY OPTION, GREEN AS A, BLUE AS B
 var colors = ['#DA0037','#e8724b','#e59e4d','#44679F','#68BB59'] // F --> A, red --> green
 
 var background_colors = {
@@ -158,12 +153,10 @@ map.on('style.load', function() {
     },
   });
 
-  //var grade_letter = '';
   // Create a popup, but don't add it to the map yet. This will be the hover popup
   window['popup'] = new mapboxgl.Popup({
     closeButton: false,
-    closeOnClick: false,
-    //className: `${grade_letter}`
+    closeOnClick: false
   });
 
   // Function to query rendered features for the station the user is hovering over, then populate popup with that station's info
@@ -182,20 +175,9 @@ map.on('style.load', function() {
       var school_name = hoveredFeature.properties.School;
       var overall_grade = hoveredFeature.properties.Overall_Grade_Letter;
       grade_letter = overall_grade.slice(0,1)
-      //console.log(grade_letter)
-
-      // window['popup'] = new mapboxgl.Popup({
-      //   closeButton: false,
-      //   closeOnClick: false,
-      //   className: `${grade_letter}-popup`
-      // });
 
       //Add class to color popup based on overall grade:
       popup.addClassName(`${grade_letter}-popup`)
-
-      //get popup by class name and change background color
-      //console.log(document.getElementsByClassName('mapboxgl-popup-content'))
-      //document.getElementsByClassName(`mapboxgl-popup-content`)[0].style.backgroundColor = 'green'
 
       window['popupContent'] = `
         <div style = "font-size:14px; font-weight:bold; color: ${text_colors[grade_letter]}; background-color: ${background_colors[grade_letter]};">${school_name} (${overall_grade})</div>
@@ -225,10 +207,6 @@ map.on('style.load', function() {
       }
   });
 
-  // // Create a popup for the click action, but don't add it to the map yet
-  // var popup_click = new mapboxgl.Popup({
-  // });
-
   map.on('click', 'schools-layer', function(e) {
 
     // get the clicked station's complex_id by querying the rendered features
@@ -240,15 +218,11 @@ map.on('style.load', function() {
     var overall_grade = clickedFeature.properties.Overall_Grade_Letter;
     var grade_letter = overall_grade.slice(0,1)
 
-
     // Create a popup for the click action, but don't add it to the map yet
     // Add a class to color the popup background based on the grade color
     var popup_click = new mapboxgl.Popup({
       className: `${grade_letter}-popup`
     });
-
-    //Add class to color popup based on overall grade:
-    //popup_click.addClassName(`${grade_letter}-popup`)
 
     window['popupContent_click'] = `
       <div style = "font-size:14px; font-weight:bold; color: ${text_colors[grade_letter]}; background-color: ${background_colors[grade_letter]};">${clickedFeature.properties.School}</div>
