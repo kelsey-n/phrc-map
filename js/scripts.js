@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1Ijoia25hbmFuIiwiYSI6ImNrbDlsMXNmNjI3MnEyb25yYjNremFwYXQifQ.l6loLOR-pOL_U2kzWBSQNQ';
+mapboxgl.accessToken = 'pk.eyJ1Ijoia2FybHloYW1wc2hpcmUiLCJhIjoiY2t0YWo3OGNoMW1raDJ2czF0Y2hldWg5ZCJ9.weTyH0bvFpB7aGv8POA5IA';
 
 // 1. Initialize mapboxgl map and insert into mapcontainer div:
 var map = new mapboxgl.Map({
@@ -7,9 +7,9 @@ var map = new mapboxgl.Map({
   bounds: [
     [-127.77006, 22.52332],
     [3.26688, 59.99842]
-  ]
+  ],
+  scrollZoom: false // disable map zoom when using scroll
 });
-
 // add navigation control:
 map.addControl(new mapboxgl.NavigationControl({
   showCompass: false,
