@@ -38,7 +38,7 @@ map.on('style.load', function() {
 
   map.addSource('phrc-map-data', {
     type: 'geojson',
-    data: 'data/2021_PHRC_Map.geojson'
+    data: 'data/2022_PHRC_Map.geojson'
   });
 
   map.addLayer({
