@@ -1,0 +1,2133 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.263082863, 53.33928891]
+      },
+      "properties": {
+        "School": "Royal College of Surgeons in Ireland",
+        "Overall_Grade_Numeric": 81.5,
+        "Overall_Grade_Letter": "A-",
+        "Curriculum": "A",
+        "Research": "A",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "A+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Royal-College-of-Surgeons-Ireland_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-8.492692775, 51.89379055]
+      },
+      "properties": {
+        "School": "University College Cork School of Medicine",
+        "Overall_Grade_Numeric": 52,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D+",
+        "Research": "C",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-College-Cork_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.246533108, 53.34363172]
+      },
+      "properties": {
+        "School": "Trinity College Dublin",
+        "Overall_Grade_Numeric": 49.32,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B",
+        "Research": "C",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Trinity-College-Dublin_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-9.061854757, 53.27940817]
+      },
+      "properties": {
+        "School": "National University of Ireland Galway School of Medicine",
+        "Overall_Grade_Numeric": 46,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D",
+        "Research": "B",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Galway_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-6.226003623, 53.31326828]
+      },
+      "properties": {
+        "School": "University College Dublin School of Medicine",
+        "Overall_Grade_Numeric": 34.53,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "C-",
+        "Research": "C-",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-College-Dublin_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.6824, 45.4231]
+      },
+      "properties": {
+        "School": "University of Ottawa",
+        "Overall_Grade_Numeric": 57.03,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "C-",
+        "Research": "B",
+        "Community_Engagement": "C-",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Ottawa_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.6138, 45.5056]
+      },
+      "properties": {
+        "School": "Université de Montréal",
+        "Overall_Grade_Numeric": 56.89,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "B+",
+        "Research": "C",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Montreal_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.58207046, 45.50174189]
+      },
+      "properties": {
+        "School": "McGill University Faculty of Medicine and Health Sciences",
+        "Overall_Grade_Numeric": 56,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "B",
+        "Research": "C+",
+        "Community_Engagement": "C-",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/McGill-University_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.6314, 52.1334]
+      },
+      "properties": {
+        "School": "University of Saskatchewan",
+        "Overall_Grade_Numeric": 52.6,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "C+",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Saskatchewan_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-63.5917, 44.6366]
+      },
+      "properties": {
+        "School": "Dalhousie University",
+        "Overall_Grade_Numeric": 50,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D",
+        "Research": "B+",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Dalhousie-University_2023_PHRC.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-113.5263, 53.5232]
+      },
+      "properties": {
+        "School": "University of Alberta",
+        "Overall_Grade_Numeric": 34.88,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "D",
+        "Research": "D",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Alberta_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.9294, 50.9283]
+      },
+      "properties": {
+        "School": "Universität zu Köln",
+        "Overall_Grade_Numeric": 42.23,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "B-",
+        "Research": "D",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Engl_UniversitatzuKoln_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.272128104, 53.00336626]
+      },
+      "properties": {
+        "School": "Keele University School of Medicine",
+        "Overall_Grade_Numeric": 87.9,
+        "Overall_Grade_Letter": "A",
+        "Curriculum": "A",
+        "Research": "A-",
+        "Community_Engagement": "A",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "A+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Keele-University-School-of-Medicine_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.13387917, 51.52457253]
+      },
+      "properties": {
+        "School": "University College London Medical School",
+        "Overall_Grade_Numeric": 81.5,
+        "Overall_Grade_Letter": "A-",
+        "Curriculum": "B+",
+        "Research": "B",
+        "Community_Engagement": "B",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "A+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-College-London_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.085743518, 50.86437968]
+      },
+      "properties": {
+        "School": "Brighton and Sussex Medical School",
+        "Overall_Grade_Numeric": 79.85,
+        "Overall_Grade_Letter": "B+",
+        "Curriculum": "A-",
+        "Research": "A+",
+        "Community_Engagement": "B-",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "B-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Brighton-and-Sussex-Medical-School_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-5.934017116, 54.58451438]
+      },
+      "properties": {
+        "School": "Queen's University Belfast School of Medicine, Dentistry, and Biomedical Sciences",
+        "Overall_Grade_Numeric": 73,
+        "Overall_Grade_Letter": "B+",
+        "Curriculum": "B+",
+        "Research": "B+",
+        "Community_Engagement": "B",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Queen_s-University-Belfast_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.11059206, 50.41593364]
+      },
+      "properties": {
+        "School": "Peninsula Medical School at University of Plymouth",
+        "Overall_Grade_Numeric": 71.27,
+        "Overall_Grade_Letter": "B",
+        "Curriculum": "B",
+        "Research": "A",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "A-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Peninsula-Medical-School-Plymouth_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.0606, 51.5177]
+      },
+      "properties": {
+        "School": "Barts (Queen Mary University of London)",
+        "Overall_Grade_Numeric": 68.41,
+        "Overall_Grade_Letter": "B",
+        "Curriculum": "A-",
+        "Research": "B-",
+        "Community_Engagement": "B",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Barts-and-the-London-School-of-Medicine-and-Dentistry_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.13398834, 57.15677846]
+      },
+      "properties": {
+        "School": "University of Aberdeen School of Medicine and Dentistry",
+        "Overall_Grade_Numeric": 63.61,
+        "Overall_Grade_Letter": "B-",
+        "Curriculum": "C",
+        "Research": "B",
+        "Community_Engagement": "B",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Aberdeen_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.3966, 50.9357]
+      },
+      "properties": {
+        "School": "University of Southampton",
+        "Overall_Grade_Numeric": 63.32,
+        "Overall_Grade_Letter": "B-",
+        "Curriculum": "A",
+        "Research": "C",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Southampton_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.494214631, 53.37795668]
+      },
+      "properties": {
+        "School": "University of Sheffield Medical School",
+        "Overall_Grade_Numeric": 63.25,
+        "Overall_Grade_Letter": "B-",
+        "Curriculum": "B",
+        "Research": "B-",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Sheffield_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.621707533, 54.98208779]
+      },
+      "properties": {
+        "School": "Newcastle University Medical School",
+        "Overall_Grade_Numeric": 63.05,
+        "Overall_Grade_Letter": "B-",
+        "Curriculum": "B",
+        "Research": "B",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Newcastle-University-UK_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.254484819, 51.75480974]
+      },
+      "properties": {
+        "School": "Oxford University Medical School",
+        "Overall_Grade_Numeric": 60.51,
+        "Overall_Grade_Letter": "B-",
+        "Curriculum": "B",
+        "Research": "B",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Oxford-University-Medical-School_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.5506, 52.3748]
+      },
+      "properties": {
+        "School": "Warwick Medical School",
+        "Overall_Grade_Numeric": 59.98,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "C+",
+        "Research": "B",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Warwick_2023_Med-1.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-4.290284318, 55.8723792]
+      },
+      "properties": {
+        "School": "The University of Glasgow School of Medicine, Dentistry, and Nursing",
+        "Overall_Grade_Numeric": 59.62,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "C+",
+        "Research": "B",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/The-University-of-Glasgow-School-of-Medicine-Dentistry-and-Nursing_2023-_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.602938451, 51.45851797]
+      },
+      "properties": {
+        "School": "University of Bristol Medical School",
+        "Overall_Grade_Numeric": 58.86,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "B",
+        "Research": "B",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Bristol_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.9653, 53.4048]
+      },
+      "properties": {
+        "School": "Liverpool University",
+        "Overall_Grade_Numeric": 58.38,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "B",
+        "Research": "C",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Liverpool_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.176501315, 51.4981215]
+      },
+      "properties": {
+        "School": "Imperial College School of Medicine",
+        "Overall_Grade_Numeric": 55.21,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "C-",
+        "Research": "B",
+        "Community_Engagement": "B-",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "B-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Imperial-College_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.14139384, 52.17638835]
+      },
+      "properties": {
+        "School": "University of Cambridge",
+        "Overall_Grade_Numeric": 54,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B+",
+        "Research": "C-",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Cambridge_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.787636386, 54.01504687]
+      },
+      "properties": {
+        "School": "Lancaster Medical School",
+        "Overall_Grade_Numeric": 53.62,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B",
+        "Research": "C",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Lancaster-University-Medical-School_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.983156716, 51.60857131]
+      },
+      "properties": {
+        "School": "Swansea University Medical School",
+        "Overall_Grade_Numeric": 52.07,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B+",
+        "Research": "F+",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "A",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Swansea-University_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.124646496, 52.62513855]
+      },
+      "properties": {
+        "School": "University of Leicester Medical School",
+        "Overall_Grade_Numeric": 49.33,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "C",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Leicester_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.6135721, 1.429439348]
+      },
+      "properties": {
+        "School": "Newcastle University Medicine Malaysia",
+        "Overall_Grade_Numeric": 48.96,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B",
+        "Research": "C-",
+        "Community_Engagement": "C-",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Newcastle-University-Malaysia_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-2.2339, 53.4668]
+      },
+      "properties": {
+        "School": "University of Manchester",
+        "Overall_Grade_Numeric": 48.87,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D",
+        "Research": "B",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "A-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Manchester_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-1.938041463, 52.45232849]
+      },
+      "properties": {
+        "School": "University of Birmingham Medical School",
+        "Overall_Grade_Numeric": 43.49,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "D",
+        "Research": "B-",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Birmingham_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.173859645, 51.42713889]
+      },
+      "properties": {
+        "School": "St. George's, University of London",
+        "Overall_Grade_Numeric": 42.2,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "C+",
+        "Research": "D-",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/St.-George_s-University-of-London_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.9917, 51.9954]
+      },
+      "properties": {
+        "School": "University of Buckingham Medical School",
+        "Overall_Grade_Numeric": 35,
+        "Overall_Grade_Letter": "D+",
+        "Curriculum": "C",
+        "Research": "D",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "F",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Buckingham_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.32681452, 33.78973994]
+      },
+      "properties": {
+        "School": "Emory University School of Medicine",
+        "Overall_Grade_Numeric": 87.3,
+        "Overall_Grade_Letter": "A",
+        "Curriculum": "A",
+        "Research": "A+",
+        "Community_Engagement": "A",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Emory-University-School-of-Medicine_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2586472, 37.8716451]
+      },
+      "properties": {
+        "School": "University of California Berkeley - University of California San Francisco Joint Medical Program",
+        "Overall_Grade_Numeric": 77.96,
+        "Overall_Grade_Letter": "B+",
+        "Curriculum": "C+",
+        "Research": "A+",
+        "Community_Engagement": "A",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/UC-Berkeley-UCSF-JMP_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.4589252, 37.76249321]
+      },
+      "properties": {
+        "School": "University of California San Francisco School of Medicine",
+        "Overall_Grade_Numeric": 74.39,
+        "Overall_Grade_Letter": "B",
+        "Curriculum": "B",
+        "Research": "A+",
+        "Community_Engagement": "B",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-California-San-Francisco_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.4526335, 38.55306437]
+      },
+      "properties": {
+        "School": "UC Davis School of Medicine",
+        "Overall_Grade_Numeric": 69.15,
+        "Overall_Grade_Letter": "B",
+        "Curriculum": "C",
+        "Research": "A",
+        "Community_Engagement": "C+",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/UC-Davis-School-of-Medicine_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.0168242, 39.99424731]
+      },
+      "properties": {
+        "School": "The Ohio State University College of Medicine",
+        "Overall_Grade_Numeric": 67.36,
+        "Overall_Grade_Letter": "B",
+        "Curriculum": "B-",
+        "Research": "A-",
+        "Community_Engagement": "B-",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/The-Ohio-State-University-College-of-Medicine_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8360124, 39.74499117]
+      },
+      "properties": {
+        "School": "University of Colorado School of Medicine",
+        "Overall_Grade_Numeric": 67.24,
+        "Overall_Grade_Letter": "B",
+        "Curriculum": "B-",
+        "Research": "A",
+        "Community_Engagement": "B",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Colorado_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.95312043, 40.78986098]
+      },
+      "properties": {
+        "School": "Icahn School of Medicine at Mount Sinai",
+        "Overall_Grade_Numeric": 64.37,
+        "Overall_Grade_Letter": "B-",
+        "Curriculum": "C",
+        "Research": "A",
+        "Community_Engagement": "B",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Icahn-School-of-Medicine-at-Mount-Sinai_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.3093688, 47.65069451]
+      },
+      "properties": {
+        "School": "University of Washington School of Medicine",
+        "Overall_Grade_Numeric": 61.6,
+        "Overall_Grade_Letter": "B-",
+        "Curriculum": "C",
+        "Research": "A",
+        "Community_Engagement": "C+",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Washington_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.49890959, 38.0326104]
+      },
+      "properties": {
+        "School": "University of Virginia School of Medicine",
+        "Overall_Grade_Numeric": 59.8,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "C",
+        "Research": "A-",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "B-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Virginia-School-of-Medicine_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.61708025, 41.89624955]
+      },
+      "properties": {
+        "School": "Northwestern University - Feinberg School of Medicine",
+        "Overall_Grade_Numeric": 56.11,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "B-",
+        "Research": "A-",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Northwestern_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.28509777, 43.70890665]
+      },
+      "properties": {
+        "School": "Geisel School of Medicine at Dartmouth University",
+        "Overall_Grade_Numeric": 55.5,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "C",
+        "Research": "B-",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Dartmouth-College-_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.76333999, 42.27861636]
+      },
+      "properties": {
+        "School": "University of Massachusetts Chan Medical School",
+        "Overall_Grade_Numeric": 54.34,
+        "Overall_Grade_Letter": "C+",
+        "Curriculum": "C",
+        "Research": "C-",
+        "Community_Engagement": "B-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Massachusetts_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.23348713, 44.97269428]
+      },
+      "properties": {
+        "School": "University of Minnesota School of Medicine",
+        "Overall_Grade_Numeric": 54.82,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C",
+        "Research": "C",
+        "Community_Engagement": "B-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Minnesota-Medical-School_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.0523577, 35.90631645]
+      },
+      "properties": {
+        "School": "University of North Carolina School of Medicine",
+        "Overall_Grade_Numeric": 54.4,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C",
+        "Research": "B+",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-North-Carolina_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.4058241, 47.66149249]
+      },
+      "properties": {
+        "School": "Washington State University Elson S. Floyd College of Medicine",
+        "Overall_Grade_Numeric": 54.24,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "C+",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Washington-State-University_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.6853798, 45.49990763]
+      },
+      "properties": {
+        "School": "Oregon Health and Science University (OHSU)",
+        "Overall_Grade_Numeric": 54.1,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "A-",
+        "Research": "C-",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Oregon-Health-and-Science-University_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.84594512, 40.85063403]
+      },
+      "properties": {
+        "School": "Albert Einstein College of Medicine",
+        "Overall_Grade_Numeric": 54.08,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B",
+        "Research": "D-",
+        "Community_Engagement": "C+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Albert-Einstein_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.07237109, 42.33654703]
+      },
+      "properties": {
+        "School": "Chobanian & Avedisian School of Medicine Boston University",
+        "Overall_Grade_Numeric": 53.53,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D+",
+        "Research": "B-",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Boston-University_2023_MED-1.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-73.94140303, 40.84179439]
+      },
+      "properties": {
+        "School": "Columbia Vagelos College of Physicians and Surgeons",
+        "Overall_Grade_Numeric": 53,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C-",
+        "Research": "A",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Columbia-University-VP_S_2023_MED-.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.66925676, 41.87418]
+      },
+      "properties": {
+        "School": "Rush Medical College",
+        "Overall_Grade_Numeric": 52.63,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "C",
+        "Community_Engagement": "C-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Rush-Medical-College_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.62053916, 39.33006725]
+      },
+      "properties": {
+        "School": "Johns Hopkins School of Medicine",
+        "Overall_Grade_Numeric": 51.95,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D",
+        "Research": "B+",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Johns-Hopkins_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.0509652, 38.90039646]
+      },
+      "properties": {
+        "School": "The George Washington School of Medicine and Health Sciences",
+        "Overall_Grade_Numeric": 51.8,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C-",
+        "Research": "B",
+        "Community_Engagement": "C-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/George-Washington_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.40842129, 41.8190551]
+      },
+      "properties": {
+        "School": "Warren Alpert School of Medicine at Brown University",
+        "Overall_Grade_Numeric": 51.69,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "C",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Brown-University_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.02931883, 41.23940537]
+      },
+      "properties": {
+        "School": "Creighton University School of Medicine - Omaha",
+        "Overall_Grade_Numeric": 51,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C-",
+        "Research": "B",
+        "Community_Engagement": "C-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Creighton-University-School-of-Medicine-Omaha_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.62696176, 43.12330087]
+      },
+      "properties": {
+        "School": "University of Rochester School of Medicine and Dentistry",
+        "Overall_Grade_Numeric": 51.49,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B",
+        "Research": "D+",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Rochester_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.96134556, 40.44325931]
+      },
+      "properties": {
+        "School": "University of Pittsburgh School of Medicine",
+        "Overall_Grade_Numeric": 50.86,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D",
+        "Research": "D+",
+        "Community_Engagement": "B",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "B-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/UniversityofPittsburgh_2022-23_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.3206901, 34.74890326]
+      },
+      "properties": {
+        "School": "University of Arkansas for Medical Sciences",
+        "Overall_Grade_Numeric": 50.6,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "D+",
+        "Community_Engagement": "B-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Arkansas-for-Medical-Sciences_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.83607002, 41.85837821]
+      },
+      "properties": {
+        "School": "Loyola Stritch School of Medicine",
+        "Overall_Grade_Numeric": 49.77,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C",
+        "Research": "C",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Loyola-University-Chicago-Stritch-School-of-Medicine_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.1650963, 39.78177565]
+      },
+      "properties": {
+        "School": "Indiana University School of Medicine",
+        "Overall_Grade_Numeric": 48.43,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C-",
+        "Research": "C",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Indiana-University-School-of-Medicine_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.0622717, 42.35021497]
+      },
+      "properties": {
+        "School": "Tufts University School of Medicine",
+        "Overall_Grade_Numeric": 47.87,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C-",
+        "Research": "B",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Tufts-University_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.46970622, 40.52432527]
+      },
+      "properties": {
+        "School": "Rutgers Robert Wood Johnson Medical School",
+        "Overall_Grade_Numeric": 47.59,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D",
+        "Research": "A",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Rutgers_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.8025487, 36.1423634]
+      },
+      "properties": {
+        "School": "Vanderbilt University School of Medicine",
+        "Overall_Grade_Numeric": 47,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C-",
+        "Research": "C",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Vanderbilt-University-School-of-Medicine_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.8357485, 40.77002189]
+      },
+      "properties": {
+        "School": "University of Utah School of Medicine",
+        "Overall_Grade_Numeric": 46.5,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D+",
+        "Research": "B-",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Utah_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-112.0744082, 33.48339225]
+      },
+      "properties": {
+        "School": "Creighton University School of Medicine - Phoenix Regional Campus",
+        "Overall_Grade_Numeric": 45.91,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C-",
+        "Research": "C",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Creighton-University-School-of-Medicine-Phoenix_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.56358632, 45.47299493]
+      },
+      "properties": {
+        "School": "Mayo Clinic Alix School of Medicine - Minnesota",
+        "Overall_Grade_Numeric": 44.33,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "C-",
+        "Research": "C-",
+        "Community_Engagement": "B-",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Mayo-Clinic-Alix-School-of-Medicine_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.79121545, 41.72996438]
+      },
+      "properties": {
+        "School": "University of Connecticut School of Medicine",
+        "Overall_Grade_Numeric": 43.69,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "B-",
+        "Research": "C-",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Connecticut_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.95776728, 39.65482071]
+      },
+      "properties": {
+        "School": "West Virginia University School of Medicine",
+        "Overall_Grade_Numeric": 42.9,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "C-",
+        "Research": "C",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/West-Virginia-University-School-of-Medicine_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.8517697, 33.64444411]
+      },
+      "properties": {
+        "School": "University of California, Irvine",
+        "Overall_Grade_Numeric": 37.48,
+        "Overall_Grade_Letter": "D+",
+        "Curriculum": "D",
+        "Research": "C",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/UC-Irvine_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.3284649, 38.93834988]
+      },
+      "properties": {
+        "School": "University of Missouri - Columbia School of Medicine",
+        "Overall_Grade_Numeric": 36.69,
+        "Overall_Grade_Letter": "D+",
+        "Curriculum": "F",
+        "Research": "D+",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "A-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Missouri-Columbia-School-of-Medicine_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.5006758, 35.47980393]
+      },
+      "properties": {
+        "School": "University of Oklahoma Health Sciences Center",
+        "Overall_Grade_Numeric": 33.2,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "F",
+        "Research": "C",
+        "Community_Engagement": "C-",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Oklahoma_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.50378562, 39.13865845]
+      },
+      "properties": {
+        "School": "University of Cincinnati School of Medicine",
+        "Overall_Grade_Numeric": 32.32,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "D",
+        "Research": "B-",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "D-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Cincinnati-College-of-Medicine_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.62574719, 39.28907662]
+      },
+      "properties": {
+        "School": "University of Maryland School of Medicine",
+        "Overall_Grade_Numeric": 30,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "C-",
+        "Research": "D",
+        "Community_Engagement": "F-",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Maryland_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.43025527, 37.53993486]
+      },
+      "properties": {
+        "School": "Virginia Commonwealth University School of Medicine",
+        "Overall_Grade_Numeric": 28.71,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "D-",
+        "Research": "D-",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Virginia-Commonwealth-University_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.85884779, 42.30057262]
+      },
+      "properties": {
+        "School": "Chicago Medical School at Rosalind Franklin University of Medicine and Science",
+        "Overall_Grade_Numeric": 26.71,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "C-",
+        "Research": "F+",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Rosalind-Franklin-University-of-Medicine-and-Science_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [170.5082004, -45.86927276]
+      },
+      "properties": {
+        "School": "University of Otago- Dunedin",
+        "Overall_Grade_Numeric": 46.5,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C",
+        "Research": "C",
+        "Community_Engagement": "F-",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Otago-Dunedin_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [174.7810751, -41.30921377]
+      },
+      "properties": {
+        "School": "University of Otago - Wellington",
+        "Overall_Grade_Numeric": 45.8,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "C",
+        "Community_Engagement": "F-",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Otago-Wellington_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [172.6259088, -43.53442454]
+      },
+      "properties": {
+        "School": "University of Otago - Christchurch",
+        "Overall_Grade_Numeric": 42.9,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "C",
+        "Research": "D+",
+        "Community_Engagement": "F-",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Otago-Christchurch_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [129.8684227, 32.77300657]
+      },
+      "properties": {
+        "School": "Nagasaki University",
+        "Overall_Grade_Numeric": 52.95,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C",
+        "Research": "A-",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Nagasaki-University_2022-23_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.580182054, 46.52122235]
+      },
+      "properties": {
+        "School": "Universite de Lausanne",
+        "Overall_Grade_Numeric": 54.88,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "B",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "B-",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Universite-de-Lausanne_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.132487681, 46.19814425]
+      },
+      "properties": {
+        "School": "Universite de Geneve",
+        "Overall_Grade_Numeric": 52.3,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "C+",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Universite-de-Geneve_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.585150625, 47.56097227]
+      },
+      "properties": {
+        "School": "Univeristat Basel",
+        "Overall_Grade_Numeric": 52.16,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C",
+        "Research": "C",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Universtat-Basel_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.436925996, 46.95031716]
+      },
+      "properties": {
+        "School": "University of Bern",
+        "Overall_Grade_Numeric": 41,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "C-",
+        "Research": "C",
+        "Community_Engagement": "F-",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Universtat-Bern_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.152005996, 46.80648915]
+      },
+      "properties": {
+        "School": "Universite de Fribourg",
+        "Overall_Grade_Numeric": 37.28,
+        "Overall_Grade_Letter": "D+",
+        "Curriculum": "C",
+        "Research": "D",
+        "Community_Engagement": "F-",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Universite-de-Fribourg_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.550938281, 47.37443832]
+      },
+      "properties": {
+        "School": "University of Zurich",
+        "Overall_Grade_Numeric": 27.18,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "D",
+        "Research": "D+",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "D-",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Zurich_2023_Med.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.46520054, -33.95650005]
+      },
+      "properties": {
+        "School": "University of Cape Town",
+        "Overall_Grade_Numeric": 43.25,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C",
+        "Research": "C",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "D-",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Cape-Town_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.88824194, 20.4741572]
+      },
+      "properties": {
+        "School": "Srirama Chandra Bhanja Medical College and Hospital (Utkal University)",
+        "Overall_Grade_Numeric": 43.08,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "A-",
+        "Research": "D+",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "F+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Srirama-Chandra-Bhanja-Medical-College-and-Hospital_2023_Med-1.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [22.95928677, 40.63095855]
+      },
+      "properties": {
+        "School": "Aristotle University of Thessaloniki",
+        "Overall_Grade_Numeric": 29.36,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "D",
+        "Research": "D",
+        "Community_Engagement": "F",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Aristotle-University-of-Thessaloniki_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.45005078, 35.35319008]
+      },
+      "properties": {
+        "School": "University of Crete",
+        "Overall_Grade_Numeric": 26.3,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "D",
+        "Research": "D-",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Crete_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [21.78541191, 38.28940681]
+      },
+      "properties": {
+        "School": "University of Patras",
+        "Overall_Grade_Numeric": 31,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "D",
+        "Research": "D+",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Patras_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.135618158, 50.82589772]
+      },
+      "properties": {
+        "School": "University of Brighton Physiotherapy",
+        "Overall_Grade_Numeric": 46.74,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B-",
+        "Research": "B-",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "D-",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University_of_Brighton_2023_PHYSIO.docx.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.135618158, 50.82589772]
+      },
+      "properties": {
+        "School": "University of Brighton Nursing",
+        "Overall_Grade_Numeric": 88.5,
+        "Overall_Grade_Letter": "A",
+        "Curriculum": "A",
+        "Research": "A",
+        "Community_Engagement": "A",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "A",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Brighton.docx.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.23348713, 44.97269428]
+      },
+      "properties": {
+        "School": "University of Minnesota School of Nursing",
+        "Overall_Grade_Numeric": 90,
+        "Overall_Grade_Letter": "A",
+        "Curriculum": "B+",
+        "Research": "A",
+        "Community_Engagement": "A-",
+        "Support_for_Student_Led_Initiatives": "A",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Minnesota.docx.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.5998962, 49.14030151]
+      },
+      "properties": {
+        "School": "Trinity Western University Nursing",
+        "Overall_Grade_Numeric": 68,
+        "Overall_Grade_Letter": "B",
+        "Curriculum": "A",
+        "Research": "B",
+        "Community_Engagement": "C+",
+        "Support_for_Student_Led_Initiatives": "B+",
+        "Sustainability": "C-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Trinity-Western-University.docx.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.50219339, 38.03148134]
+      },
+      "properties": {
+        "School": "University of Virginia School of Nursing",
+        "Overall_Grade_Numeric": 54.47,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "C-",
+        "Research": "C-",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "B+",
+        "Sustainability": "B+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-Virginia.docx.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.458052, 37.7651047]
+      },
+      "properties": {
+        "School": "University of California, San Francisco School of Pharmacy",
+        "Overall_Grade_Numeric": 63,
+        "Overall_Grade_Letter": "B-",
+        "Curriculum": "B",
+        "Research": "B-",
+        "Community_Engagement": "F+",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "A-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/California-San-Franciso-University_2023_Pharm.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-104.8377595, 39.74553826]
+      },
+      "properties": {
+        "School": "University of Colorado Anschutz Skaggs School of Pharmacy and Pharmaceutical Sciences",
+        "Overall_Grade_Numeric": 48,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C",
+        "Research": "B-",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Colorado-University_2023_Pharm.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [145.133583, -37.91337475]
+      },
+      "properties": {
+        "School": "Monash University Faculty of Pharmacy and Pharmaceutical Sciences",
+        "Overall_Grade_Numeric": 51,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D+",
+        "Research": "B",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "B+",
+        "Sustainability": "B",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Monash-University_2023_Pharm.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.4526608, 37.55284809]
+      },
+      "properties": {
+        "School": "Virginia Commonwealth University School of Pharmacy",
+        "Overall_Grade_Numeric": 34,
+        "Overall_Grade_Letter": "D+",
+        "Curriculum": "D-",
+        "Research": "C",
+        "Community_Engagement": "F+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "D+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/Virginia-Commonwealth-University_2023_Pharm.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-70.4534, 43.4926]
+      },
+      "properties": {
+        "School": "University of New England College of Osteopathic Medicine",
+        "Overall_Grade_Numeric": 50,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "D",
+        "Research": "B-",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/04/University-of-New-England_2023_MED-1.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [18.02362571, 59.34824136]
+      },
+      "properties": {
+        "School": "Karonlinska Insitut",
+        "Overall_Grade_Numeric": 51.7,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "C+",
+        "Research": "B+",
+        "Community_Engagement": "D+",
+        "Support_for_Student_Led_Initiatives": "C",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/08/Karolinska-Institutet_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.11024877, 40.97864137]
+      },
+      "properties": {
+        "School": "Acıbadem Üniversitesi",
+        "Overall_Grade_Numeric": 41.4,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "D",
+        "Research": "F+",
+        "Community_Engagement": "C",
+        "Support_for_Student_Led_Initiatives": "B",
+        "Sustainability": "C+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/08/Acibadem-Universitesi_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.52369342, 38.70435165]
+      },
+      "properties": {
+        "School": "Erciyes Üniversitesi Tıp Fakültesi",
+        "Overall_Grade_Numeric": 41.14,
+        "Overall_Grade_Letter": "C-",
+        "Curriculum": "C+",
+        "Research": "C",
+        "Community_Engagement": "D-",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "D",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/08/Erciyes-Universitesi_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [32.85100861, 39.9532087]
+      },
+      "properties": {
+        "School": "Hacettepe Üniversitesi",
+        "Overall_Grade_Numeric": 37.71,
+        "Overall_Grade_Letter": "D+",
+        "Curriculum": "C",
+        "Research": "C",
+        "Community_Engagement": "C-",
+        "Support_for_Student_Led_Initiatives": "D-",
+        "Sustainability": "F+",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/08/Hacettepe-Universitesi_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [39.76807913, 40.99012286]
+      },
+      "properties": {
+        "School": "Karadeniz Teknik Üniversitesi",
+        "Overall_Grade_Numeric": 34.5,
+        "Overall_Grade_Letter": "D",
+        "Curriculum": "C-",
+        "Research": "D+",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "C-",
+        "Sustainability": "D-",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/08/Karadeniz-Teknik-Universitesi_2023_MED.pdf",
+        "Link2": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.07219966, 41.20715195]
+      },
+      "properties": {
+        "School": "Koç University",
+        "Overall_Grade_Numeric": 52.22,
+        "Overall_Grade_Letter": "C",
+        "Curriculum": "B",
+        "Research": "B",
+        "Community_Engagement": "D",
+        "Support_for_Student_Led_Initiatives": "D",
+        "Sustainability": "C",
+        "Link": "https://phreportcard.org/wp-content/uploads/2023/08/KOC-University_2023_MED.pdf",
+        "Link2": ""
+      }
+    }
+  ]
+}
